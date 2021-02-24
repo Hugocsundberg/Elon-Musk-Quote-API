@@ -10,7 +10,7 @@ app.get('/', (req, res)=>{
 })
 
 const server = app.listen(port, ()=>{
-    console.log(`listening on http://127.0.0.1:${port}`)
+    console.log(`Listening on port ${port}`)
 })
 
 process.on('SIGINT', ()=>{

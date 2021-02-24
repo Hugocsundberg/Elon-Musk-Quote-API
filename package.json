@@ -6,15 +6,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js",
-    "build": "parcel main.js"
+    "start": "node main.js"
   },
   "author": "Hugo Sundberg",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "parcel": "^1.12.4"
   }
 }
