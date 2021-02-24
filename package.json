@@ -9,6 +9,9 @@
     "start": "node main.js"
   },
   "author": "Hugo Sundberg",
+  "engines": {
+    "node": "15.x"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"

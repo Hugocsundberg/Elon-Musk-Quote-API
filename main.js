@@ -1,6 +1,6 @@
 import express from 'express'
 import quoteArray from './getQuotes.js'
-const port = 3010
+const port = process.env.PORT || 3010
 
 const app = express()
 
